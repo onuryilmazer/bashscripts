@@ -1,6 +1,7 @@
 # bashscripts
 Repo of my bash scripts that I created for learning purposes.
 
+```
 Readme file created using:
 ls *.sh | xargs -I "%" /bin/bash -c "echo %; awk '/# Description/, /^[\s]*$/ {print \$0}';" > README.md
 
@@ -62,3 +63,4 @@ ls *.sh | xargs -I "%" /bin/bash -c "echo %; awk '/# Description/, /^[\s]*$/ {pr
 # 23  1     0         2-3, 2-3 slice:         1337    7
 # 42  1337  7                                 0       69
 # 0   0     69
+```
